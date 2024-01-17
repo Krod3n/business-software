@@ -1,0 +1,58 @@
+/* CONTAINER PRINCIPAL */
+.movementContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* TITLE CONTAINER */
+.movementTitleContainer {
+    height: 10vh;
+    /* width: 100%; */
+    /* background-color: aquamarine; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.movementTitle {
+    color: white;
+}
+
+/* BUTTON CONTAINER */
+.movementButtonContainer {
+    height: 5vh;
+    width: 100%;
+    /* background-color: rgb(48, 144, 112); */
+    margin-top: 3%;
+}
+
+.movementButton {
+
+}
+
+/* INFORMATIONS CONTAINER */
+.movementInfoContainer {
+    height: 80vh;
+    width: 100%;
+    margin-top: 0.5%;
+    /* background-color: rgb(35, 129, 98); */
+    display: flex;
+    gap: 0.5%;
+}
+
+.movementGridContainer {
+    height: 75.5%;
+    flex: 1;
+    /* border: 1px red solid; */
+    background-color: #84817a;
+    /* POSSIBLE COLOR : grey , #aaa69d  */
+    border-radius: 10px;
+}
+
+.movementGraphContainer {
+    height: 90%;
+    flex: 0.8;
+    /* border: 1px red solid; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+}

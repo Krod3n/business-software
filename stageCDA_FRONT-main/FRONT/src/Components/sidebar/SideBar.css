@@ -1,0 +1,51 @@
+.sidebar {
+    background: #000;
+    color: #fff;
+}
+
+.top_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+    gap: 2vh;
+}
+
+.profil {
+    margin-left: 5%;
+    width: 90%;
+    justify-content: center;
+}
+
+.bars {
+    display: flex;
+    height: 3vh;
+    justify-content: end;
+    margin-right: 1.5vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    cursor: pointer;
+}
+
+
+.link {
+    display: flex;
+    color: #fff;
+    padding: 2vh 1vh;
+    gap: 2vh;
+    text-decoration-line: none;
+}
+
+.link:hover {
+    background: #222;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.link:focus {
+    background: #222;
+}
+
+.link:hover:active {
+    background: #222;
+}

@@ -1,0 +1,23 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.imgContainer {
+    display: block;
+    min-width: 8rem;
+    min-height: 8rem;
+}
+
+.imgcontainer img {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    margin-top: 3vh;
+    font-size: 1.5rem;
+}

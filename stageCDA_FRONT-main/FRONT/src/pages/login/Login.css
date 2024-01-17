@@ -1,0 +1,51 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* CONTENAIRE DU LOGIN */
+.loginContainer {
+    background-color: rgb(175, 171, 171);
+    border: 1px rgb(153, 101, 109) solid;
+    border-radius: 30px;
+    height: 50%;
+    /* width: 30%; */
+    width: 33rem;
+    text-align: center;
+    margin-left: 75vh;
+    margin-top: 25vh;
+}
+
+/* CONTIENT LES INPUTS ET BOUTON DE CONNEXION */
+.loginInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    padding: 1.5rem;
+    height: 30vh;
+    gap: 5%;
+}
+
+.log {
+    /* color: rgb(153, 101, 109); */
+    color: #222
+}
+
+/* BOUTON DU LOGIN */
+.loginButton {
+   width: 35%;
+   align-self: flex-end;
+   margin-top: 5%;
+}
+
+.LogError {
+    /* background-color: aqua; */
+    margin-top: -5%;
+    /* color: red; */
+}
